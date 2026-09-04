@@ -1,5 +1,21 @@
 # FantAiuto
 
+## Webapp GitHub Pages
+
+La versione web è una SPA statica: il punto d'ingresso è [`index.html`](index.html)
+e funziona senza backend. Legge il dataset presente in `dati/valutazioni.json` e
+salva acquisti, squadre, tema e impostazioni nell'IndexedDB del browser.
+
+Per provarla in locale:
+
+```bash
+python -m http.server 8765
+```
+
+Poi apri `http://127.0.0.1:8765/`. Su GitHub Pages viene servita direttamente dalla
+cartella principale del repository; i dati sono una fotografia statica e cambiano
+solo quando viene pubblicata una nuova versione del dataset.
+
 Assistente per l'asta e per la formazione del fantacalcio, con i dati ufficiali di
 fantacalcio.it aggiornati da soli ogni ora.
 

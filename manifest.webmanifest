@@ -1,0 +1,17 @@
+{
+  "name": "FantAiuto",
+  "short_name": "FantAiuto",
+  "lang": "it-IT",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#08111c",
+  "theme_color": "#08111c",
+  "icons": [
+    {
+      "src": "./FantAiuto.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
