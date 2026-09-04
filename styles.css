@@ -63,6 +63,12 @@ a { color: inherit; }
 .topbar-inner { max-width: 1440px; margin: auto; display: flex; align-items: center; gap: 18px; }
 .brand { display: flex; align-items: center; gap: 10px; flex: 0 0 auto; text-decoration: none; }
 .brand .brand-mark { width: 36px; height: 36px; border-radius: 11px; font-size: 21px; }
+.brand-partner { display: grid; gap: 2px; line-height: 1; white-space: nowrap; }
+.partner-by { display: inline-flex; align-items: center; gap: 4px; color: var(--muted); font-size: 9px; letter-spacing: .02em; }
+.partner-wordmark { display: inline-flex; align-items: center; gap: 3px; color: var(--text); font-size: 12px; font-weight: 850; letter-spacing: -.03em; }
+.partner-wordmark img { width: 14px; height: 14px; object-fit: contain; }
+.partner-name { color: var(--muted); font-size: 9px; letter-spacing: .03em; }
+:root[data-theme="light"] .partner-wordmark img { filter: invert(1); }
 .brand-copy { font-weight: 800; letter-spacing: -.03em; }
 .brand-copy small { display: block; color: var(--muted); font-weight: 500; font-size: 10px; letter-spacing: .08em; text-transform: uppercase; }
 .main-nav { display: flex; align-items: center; gap: 4px; overflow-x: auto; scrollbar-width: none; flex: 1; }

@@ -327,7 +327,7 @@ function renderHeader() {
   const summary = leagueSummary();
   const navPages = ['home', 'auction', 'advice', 'teams', 'squad', 'lineup', 'injuries', 'stats', 'ask', 'settings'];
   return `<header class="topbar"><div class="topbar-inner">
-    <a class="brand" href="#" data-page="home"><span class="brand-mark">F</span><span class="brand-copy">FantAiuto<small>${number(DATA.prossima_giornata)}ª giornata</small></span></a>
+    <a class="brand" href="#" data-page="home"><span class="brand-mark">F</span><span class="brand-partner"><span class="partner-by">Powered by <span class="partner-wordmark"><img src="https://www.mogio.xyz/assets/logo-mark-white.png" alt="Mogio">Mogio</span></span><span class="partner-name">Giorgio Frezza</span></span><span class="brand-copy">FantAiuto<small>${number(DATA.prossima_giornata)}ª giornata</small></span></a>
     <nav class="main-nav" aria-label="Navigazione principale">${navPages.map((page) => `<button class="nav-button ${ui.page === page ? 'active' : ''}" data-page="${page}">${esc(PAGE_LABELS[page])}</button>`).join('')}</nav>
     <div class="header-actions"><button class="icon-button" title="Cambia tema" aria-label="Cambia tema" data-action="theme">${state.theme === 'dark' ? '☼' : '☾'}</button><button class="icon-button" title="Esporta dati" aria-label="Esporta dati" data-action="export">⇩</button></div>
   </div></header>
