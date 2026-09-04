@@ -1,0 +1,19 @@
+{
+  "squadre": 10,
+  "crediti": 500,
+  "slot": {
+    "P": 3,
+    "D": 8,
+    "C": 8,
+    "A": 6
+  },
+  "quote": {
+    "P": 0.08,
+    "D": 0.22,
+    "C": 0.28,
+    "A": 0.42
+  },
+  "modificatore_difesa": true,
+  "modalita": "Classic",
+  "europa": []
+}

@@ -1,0 +1,29 @@
+# La cache delle pagine scaricate: venticinque mega di HTML che il programma
+# si riscarica da solo al primo aggiornamento. Non e' codice e non e' un dato:
+# e' una fotocopia di fantacalcio.it.
+dati/html/
+
+# Registri e file di lavoro
+dati/*.log
+dati/andamento.json
+*.bak
+dati/*.bak
+
+# L'asta in corso e' roba tua, non del progetto
+dati/asta.json
+
+# Roba di Python e di PyInstaller
+__pycache__/
+*.pyc
+*.pyo
+build/
+dist/
+*.spec.bak
+
+# Roba del sistema
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Strumento di sviluppo con percorsi della macchina di chi lo ha scritto
+scatta.py
